@@ -1,0 +1,76 @@
+.main-container {
+    max-width: 350px;
+    margin: 10vh auto 0 auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 10px whitesmoke;
+  }
+  body {
+    height: 100vh;
+    background-color: #db89d9;
+    background-image: linear-gradient(45deg, #0e0e0d 0%, #030303 100%);
+  }
+  .header {
+    text-align: center;
+    margin-top: 1%;
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .disp {
+    text-align: right;
+    height: 75px;
+    line-height: 60px;
+    padding: 20px 20px;
+    font-size: 25px;
+    border:none;
+    outline: none;
+    color:white;
+    font-weight: bold;
+  }
+  .buttons {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: grid;
+    
+  }
+  .btn {
+    border:none;
+    height: 80px;
+    margin: 0.2%;
+    text-align:center;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 5px;
+  }
+  #opera-btn {
+    color:white;
+
+  }
+  #nobtn {
+    color:white;
+
+  }
+  #cbtn {
+    background: crimson;
+    color: white;
+  }
+  #opera-btn:hover {
+    background-color: rgb(165, 245, 147);
+    color: white;
+  }
+  #nobtn:hover {
+    background-color: rgb(151, 224, 239);
+    color:white;
+  }
+  #cbtn:hover {
+    background-color: coral;
+    color: cornflowerblue;
+  }
+  .footer {
+    margin: 2%;
+    width: 94%;
+    position: fixed;
+  }
+  .footer h1 {
+    font-size: 10px;
+    font-weight: 400;
+  }
